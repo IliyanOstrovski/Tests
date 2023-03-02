@@ -1,8 +1,8 @@
-package com.company.Test2;
+package com.company.Test3;
 
 public class Task2 {
     public static void main(String[] args) {
-        String s1 = "abc";
+        String s1 = "abcabc";
         String s2 = "1212";
         String s3 = "alaala";
         String s4 = "alaal";
@@ -20,6 +20,7 @@ public class Task2 {
         if (s.length() < 2) {
             return false;
         }
+
         for (int i = 1; i <= s.length() / 2; i++) {
             if (s.length() % i == 0) {
                 String pattern = s.substring(0, i);
