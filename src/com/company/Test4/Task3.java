@@ -42,7 +42,6 @@ public class Task3 {
                 j++;
             }
         }
-
         return result.toString();
     }
 }
