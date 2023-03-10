@@ -2,7 +2,7 @@ package com.company.Test4;
 public class Task3 {
 
     public static void main(String[] args) {
-        String str = "abc133d";
+        String str = "abc133d"; //a1b2c3d
         String str1 = "alabala";
         System.out.println(rearrange(str));
         System.out.println(rearrange(str1));

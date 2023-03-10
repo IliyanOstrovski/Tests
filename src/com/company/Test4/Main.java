@@ -27,7 +27,7 @@ public class Main {
             }
         }
 
-        Matrix sub = matrix2.subMatrix(0, 1, 1, 2);
+        Matrix sub = matrix2.subMatrix(0, 0, 1, 1);
         System.out.println(sub);
 
         matrix1.clear();
